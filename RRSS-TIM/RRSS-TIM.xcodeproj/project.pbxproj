@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A3AA6B2528E29B005D8516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3AA6A2528E29B005D8516 /* AppDelegate.swift */; };
+		22A3AA6D2528E29B005D8516 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3AA6C2528E29B005D8516 /* SceneDelegate.swift */; };
+		22A3AA722528E29B005D8516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A3AA702528E29B005D8516 /* Main.storyboard */; };
+		22A3AA752528E29B005D8516 /* RRSS_TIM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22A3AA732528E29B005D8516 /* RRSS_TIM.xcdatamodeld */; };
+		22A3AA772528E29C005D8516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A3AA762528E29C005D8516 /* Assets.xcassets */; };
+		22A3AA7A2528E29C005D8516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A3AA782528E29C005D8516 /* LaunchScreen.storyboard */; };
+		22A3AA852528E29C005D8516 /* RRSS_TIMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3AA842528E29C005D8516 /* RRSS_TIMTests.swift */; };
+		22A3AA902528E29C005D8516 /* RRSS_TIMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3AA8F2528E29C005D8516 /* RRSS_TIMUITests.swift */; };
+		22A3AAA62528FA0C005D8516 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3AAA52528FA0C005D8516 /* HomeViewController.swift */; };
+		22A3AAE2252947AC005D8516 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3AAE1252947AC005D8516 /* Structs.swift */; };
+		22FF52A7252957C000E97DB4 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF52A6252957C000E97DB4 /* MessagesViewController.swift */; };
+		22FF52B52529885F00E97DB4 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF52B42529885F00E97DB4 /* AlertViewController.swift */; };
+		22FF52B925298D3E00E97DB4 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF52B825298D3D00E97DB4 /* TestViewController.swift */; };
+		22FF52C325299FCB00E97DB4 /* MessageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF52C225299FCB00E97DB4 /* MessageDetailViewController.swift */; };
+		22FF52D1252A1D7C00E97DB4 /* HorizonsData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 22FF52D0252A1D7C00E97DB4 /* HorizonsData.csv */; };
+		22FF52EA252A72A600E97DB4 /* Cochlea_wave_animated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 22FF52E2252A72A600E97DB4 /* Cochlea_wave_animated.gif */; };
+		22FF52FC252A7D2300E97DB4 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF52FB252A7D2300E97DB4 /* SuccessViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22A3AA812528E29C005D8516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A3AA5F2528E29B005D8516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A3AA662528E29B005D8516;
+			remoteInfo = "RRSS-TIM";
+		};
+		22A3AA8C2528E29C005D8516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A3AA5F2528E29B005D8516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A3AA662528E29B005D8516;
+			remoteInfo = "RRSS-TIM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22A3AADE25290AB2005D8516 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22A3AA672528E29B005D8516 /* RRSS-TIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RRSS-TIM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A3AA6A2528E29B005D8516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22A3AA6C2528E29B005D8516 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22A3AA712528E29B005D8516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22A3AA742528E29B005D8516 /* RRSS_TIM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RRSS_TIM.xcdatamodel; sourceTree = "<group>"; };
+		22A3AA762528E29C005D8516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22A3AA792528E29C005D8516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22A3AA7B2528E29C005D8516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A3AA802528E29C005D8516 /* RRSS-TIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RRSS-TIMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A3AA842528E29C005D8516 /* RRSS_TIMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRSS_TIMTests.swift; sourceTree = "<group>"; };
+		22A3AA862528E29C005D8516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A3AA8B2528E29C005D8516 /* RRSS-TIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RRSS-TIMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A3AA8F2528E29C005D8516 /* RRSS_TIMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRSS_TIMUITests.swift; sourceTree = "<group>"; };
+		22A3AA912528E29C005D8516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A3AAA52528FA0C005D8516 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		22A3AAE1252947AC005D8516 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		22FF52A6252957C000E97DB4 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		22FF52B42529885F00E97DB4 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		22FF52B825298D3D00E97DB4 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		22FF52C225299FCB00E97DB4 /* MessageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailViewController.swift; sourceTree = "<group>"; };
+		22FF52D0252A1D7C00E97DB4 /* HorizonsData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HorizonsData.csv; path = ../../../HorizonsData.csv; sourceTree = "<group>"; };
+		22FF52E2252A72A600E97DB4 /* Cochlea_wave_animated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Cochlea_wave_animated.gif; sourceTree = "<group>"; };
+		22FF52FB252A7D2300E97DB4 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A3AA642528E29B005D8516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A3AA7D2528E29C005D8516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A3AA882528E29C005D8516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A3AA5E2528E29B005D8516 = {
+			isa = PBXGroup;
+			children = (
+				22A3AA692528E29B005D8516 /* RRSS-TIM */,
+				22A3AA832528E29C005D8516 /* RRSS-TIMTests */,
+				22A3AA8E2528E29C005D8516 /* RRSS-TIMUITests */,
+				22A3AA682528E29B005D8516 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22A3AA682528E29B005D8516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A3AA672528E29B005D8516 /* RRSS-TIM.app */,
+				22A3AA802528E29C005D8516 /* RRSS-TIMTests.xctest */,
+				22A3AA8B2528E29C005D8516 /* RRSS-TIMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A3AA692528E29B005D8516 /* RRSS-TIM */ = {
+			isa = PBXGroup;
+			children = (
+				22A3AAE1252947AC005D8516 /* Structs.swift */,
+				22A3AA6A2528E29B005D8516 /* AppDelegate.swift */,
+				22A3AA6C2528E29B005D8516 /* SceneDelegate.swift */,
+				22A3AAA52528FA0C005D8516 /* HomeViewController.swift */,
+				22A3AA702528E29B005D8516 /* Main.storyboard */,
+				22FF52FB252A7D2300E97DB4 /* SuccessViewController.swift */,
+				22FF52C225299FCB00E97DB4 /* MessageDetailViewController.swift */,
+				22FF52B825298D3D00E97DB4 /* TestViewController.swift */,
+				22FF52B42529885F00E97DB4 /* AlertViewController.swift */,
+				22FF52A6252957C000E97DB4 /* MessagesViewController.swift */,
+				22A3AA762528E29C005D8516 /* Assets.xcassets */,
+				22A3AA782528E29C005D8516 /* LaunchScreen.storyboard */,
+				22A3AA7B2528E29C005D8516 /* Info.plist */,
+				22FF52D0252A1D7C00E97DB4 /* HorizonsData.csv */,
+				22FF52E2252A72A600E97DB4 /* Cochlea_wave_animated.gif */,
+				22A3AA732528E29B005D8516 /* RRSS_TIM.xcdatamodeld */,
+			);
+			path = "RRSS-TIM";
+			sourceTree = "<group>";
+		};
+		22A3AA832528E29C005D8516 /* RRSS-TIMTests */ = {
+			isa = PBXGroup;
+			children = (
+				22A3AA842528E29C005D8516 /* RRSS_TIMTests.swift */,
+				22A3AA862528E29C005D8516 /* Info.plist */,
+			);
+			path = "RRSS-TIMTests";
+			sourceTree = "<group>";
+		};
+		22A3AA8E2528E29C005D8516 /* RRSS-TIMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22A3AA8F2528E29C005D8516 /* RRSS_TIMUITests.swift */,
+				22A3AA912528E29C005D8516 /* Info.plist */,
+			);
+			path = "RRSS-TIMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A3AA662528E29B005D8516 /* RRSS-TIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A3AA942528E29C005D8516 /* Build configuration list for PBXNativeTarget "RRSS-TIM" */;
+			buildPhases = (
+				22A3AA632528E29B005D8516 /* Sources */,
+				22A3AA642528E29B005D8516 /* Frameworks */,
+				22A3AA652528E29B005D8516 /* Resources */,
+				22A3AADE25290AB2005D8516 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RRSS-TIM";
+			productName = "RRSS-TIM";
+			productReference = 22A3AA672528E29B005D8516 /* RRSS-TIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22A3AA7F2528E29C005D8516 /* RRSS-TIMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A3AA972528E29C005D8516 /* Build configuration list for PBXNativeTarget "RRSS-TIMTests" */;
+			buildPhases = (
+				124965867BC6EE8B9DB0FD65 /* [CP] Check Pods Manifest.lock */,
+				22A3AA7C2528E29C005D8516 /* Sources */,
+				22A3AA7D2528E29C005D8516 /* Frameworks */,
+				22A3AA7E2528E29C005D8516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22A3AA822528E29C005D8516 /* PBXTargetDependency */,
+			);
+			name = "RRSS-TIMTests";
+			productName = "RRSS-TIMTests";
+			productReference = 22A3AA802528E29C005D8516 /* RRSS-TIMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22A3AA8A2528E29C005D8516 /* RRSS-TIMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A3AA9A2528E29C005D8516 /* Build configuration list for PBXNativeTarget "RRSS-TIMUITests" */;
+			buildPhases = (
+				F37F414CE556D1C29ED7118B /* [CP] Check Pods Manifest.lock */,
+				22A3AA872528E29C005D8516 /* Sources */,
+				22A3AA882528E29C005D8516 /* Frameworks */,
+				22A3AA892528E29C005D8516 /* Resources */,
+				B93E4D89C220030CC5B64369 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22A3AA8D2528E29C005D8516 /* PBXTargetDependency */,
+			);
+			name = "RRSS-TIMUITests";
+			productName = "RRSS-TIMUITests";
+			productReference = 22A3AA8B2528E29C005D8516 /* RRSS-TIMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A3AA5F2528E29B005D8516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					22A3AA662528E29B005D8516 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					22A3AA7F2528E29C005D8516 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 22A3AA662528E29B005D8516;
+					};
+					22A3AA8A2528E29C005D8516 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 22A3AA662528E29B005D8516;
+					};
+				};
+			};
+			buildConfigurationList = 22A3AA622528E29B005D8516 /* Build configuration list for PBXProject "RRSS-TIM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22A3AA5E2528E29B005D8516;
+			productRefGroup = 22A3AA682528E29B005D8516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22A3AA662528E29B005D8516 /* RRSS-TIM */,
+				22A3AA7F2528E29C005D8516 /* RRSS-TIMTests */,
+				22A3AA8A2528E29C005D8516 /* RRSS-TIMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22A3AA652528E29B005D8516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF52D1252A1D7C00E97DB4 /* HorizonsData.csv in Resources */,
+				22A3AA7A2528E29C005D8516 /* LaunchScreen.storyboard in Resources */,
+				22A3AA772528E29C005D8516 /* Assets.xcassets in Resources */,
+				22A3AA722528E29B005D8516 /* Main.storyboard in Resources */,
+				22FF52EA252A72A600E97DB4 /* Cochlea_wave_animated.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A3AA7E2528E29C005D8516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A3AA892528E29C005D8516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		124965867BC6EE8B9DB0FD65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RRSS-TIMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B93E4D89C220030CC5B64369 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RRSS-TIM-RRSS-TIMUITests/Pods-RRSS-TIM-RRSS-TIMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RRSS-TIM-RRSS-TIMUITests/Pods-RRSS-TIM-RRSS-TIMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RRSS-TIM-RRSS-TIMUITests/Pods-RRSS-TIM-RRSS-TIMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F37F414CE556D1C29ED7118B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RRSS-TIM-RRSS-TIMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A3AA632528E29B005D8516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A3AAE2252947AC005D8516 /* Structs.swift in Sources */,
+				22FF52A7252957C000E97DB4 /* MessagesViewController.swift in Sources */,
+				22FF52C325299FCB00E97DB4 /* MessageDetailViewController.swift in Sources */,
+				22A3AAA62528FA0C005D8516 /* HomeViewController.swift in Sources */,
+				22FF52B52529885F00E97DB4 /* AlertViewController.swift in Sources */,
+				22FF52B925298D3E00E97DB4 /* TestViewController.swift in Sources */,
+				22A3AA752528E29B005D8516 /* RRSS_TIM.xcdatamodeld in Sources */,
+				22A3AA6B2528E29B005D8516 /* AppDelegate.swift in Sources */,
+				22FF52FC252A7D2300E97DB4 /* SuccessViewController.swift in Sources */,
+				22A3AA6D2528E29B005D8516 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A3AA7C2528E29C005D8516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A3AA852528E29C005D8516 /* RRSS_TIMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A3AA872528E29C005D8516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A3AA902528E29C005D8516 /* RRSS_TIMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22A3AA822528E29C005D8516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A3AA662528E29B005D8516 /* RRSS-TIM */;
+			targetProxy = 22A3AA812528E29C005D8516 /* PBXContainerItemProxy */;
+		};
+		22A3AA8D2528E29C005D8516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A3AA662528E29B005D8516 /* RRSS-TIM */;
+			targetProxy = 22A3AA8C2528E29C005D8516 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22A3AA702528E29B005D8516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A3AA712528E29B005D8516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22A3AA782528E29C005D8516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A3AA792528E29C005D8516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22A3AA922528E29C005D8516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22A3AA932528E29C005D8516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22A3AA952528E29C005D8516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3PN5T62NE;
+				INFOPLIST_FILE = "RRSS-TIM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redhornetapps.ios.RRSS-TIM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22A3AA962528E29C005D8516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3PN5T62NE;
+				INFOPLIST_FILE = "RRSS-TIM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redhornetapps.ios.RRSS-TIM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22A3AA982528E29C005D8516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3PN5T62NE;
+				INFOPLIST_FILE = "RRSS-TIMTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redhornetapps.ios.RRSS-TIMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRSS-TIM.app/RRSS-TIM";
+			};
+			name = Debug;
+		};
+		22A3AA992528E29C005D8516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3PN5T62NE;
+				INFOPLIST_FILE = "RRSS-TIMTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redhornetapps.ios.RRSS-TIMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRSS-TIM.app/RRSS-TIM";
+			};
+			name = Release;
+		};
+		22A3AA9B2528E29C005D8516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3PN5T62NE;
+				INFOPLIST_FILE = "RRSS-TIMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redhornetapps.ios.RRSS-TIMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RRSS-TIM";
+			};
+			name = Debug;
+		};
+		22A3AA9C2528E29C005D8516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3PN5T62NE;
+				INFOPLIST_FILE = "RRSS-TIMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redhornetapps.ios.RRSS-TIMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RRSS-TIM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A3AA622528E29B005D8516 /* Build configuration list for PBXProject "RRSS-TIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A3AA922528E29C005D8516 /* Debug */,
+				22A3AA932528E29C005D8516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A3AA942528E29C005D8516 /* Build configuration list for PBXNativeTarget "RRSS-TIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A3AA952528E29C005D8516 /* Debug */,
+				22A3AA962528E29C005D8516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A3AA972528E29C005D8516 /* Build configuration list for PBXNativeTarget "RRSS-TIMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A3AA982528E29C005D8516 /* Debug */,
+				22A3AA992528E29C005D8516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A3AA9A2528E29C005D8516 /* Build configuration list for PBXNativeTarget "RRSS-TIMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A3AA9B2528E29C005D8516 /* Debug */,
+				22A3AA9C2528E29C005D8516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22A3AA732528E29B005D8516 /* RRSS_TIM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22A3AA742528E29B005D8516 /* RRSS_TIM.xcdatamodel */,
+			);
+			currentVersion = 22A3AA742528E29B005D8516 /* RRSS_TIM.xcdatamodel */;
+			path = RRSS_TIM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22A3AA5F2528E29B005D8516 /* Project object */;
+}
